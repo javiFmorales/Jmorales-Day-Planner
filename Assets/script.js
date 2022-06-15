@@ -1,14 +1,14 @@
 //displays current date and time using moment.js
 var currentDay = $("#currentDay")
 currentDay.text(moment().format('MMMM Do YYYY'));
-var currentHour = moment().hour();
+var currentHour =  moment().hour();
 console.log(currentHour)
 
 
 $(".time-block").each(function () {
 //gets the value saved in local storage 
   var blockHour = $(this).attr("id");
-  console.log(blockHour.split("-")[1])
+  //console.log(blockHour.split("-")[1])
   console.log(blockHour.split("hour-")[1])
   var key = localStorage.getItem(blockHour);
   var value = $(this).children(".description");
