@@ -7,3 +7,5 @@ This week's task was to create a day planner to complete this assignment i follo
 -if statement were used to influence the color the time block is presented based on the current hour.
 
 to access the deployed webpage click here :
+
+https://javifmorales.github.io/Jmorales-day-planner/
