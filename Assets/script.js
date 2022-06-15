@@ -1,7 +1,7 @@
 //displays current date and time using moment.js
 var currentDay = $("#currentDay")
 currentDay.text(moment().format('MMMM Do YYYY'));
-var currentHour =  moment().hour();
+var currentHour =  moment().hour()
 console.log(currentHour)
 
 
